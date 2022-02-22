@@ -9,7 +9,11 @@ const weather_API_Key = {
 function App() {
   return (
     <div className="App">
-      Hello World
+      <main>
+        <div className='search-box'>
+          <input type="text" placeholder="Search..." className="search-bar" />
+        </div>
+      </main>
     </div>
   );
 }
